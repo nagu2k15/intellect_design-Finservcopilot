@@ -1,0 +1,10 @@
+User chose: Upgrade the Python interpreter to 3.10+ (supports '|' unions and built-in generics')
+Suggested next steps:
+
+1) Confirm current Python version: python -V and python -c "import sys; print(sys.executable)".
+2) Create/activate a new virtual environment using Python 3.10+.
+   - Windows (PowerShell): py -3.10 -m venv .venv; .\.venv\Scripts\Activate
+   - macOS/Linux: python3.10 -m venv .venv; source .venv/bin/activate
+3) Install dependencies: python -m pip install -r requirements.txt (or pip install "uvicorn[standard]" etc.)
+
+If you want, tell me your OS and package manager and I will give exact commands and help migrate the environment.

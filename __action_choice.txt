@@ -1,0 +1,6 @@
+User chose: Install uvicorn into the current environment (python -m pip install 'uvicorn[standard]')
+Suggested command to run:
+
+python -m pip install "uvicorn[standard]"
+
+If you need the exact terminal commands for Windows, macOS, or your package manager, tell me which OS and whether you use virtualenv/venv/poetry/pipenv.
